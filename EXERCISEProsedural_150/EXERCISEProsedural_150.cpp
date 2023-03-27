@@ -18,6 +18,7 @@ int main() {
 	string status[2];
 
 	int tidakDiterima = 0;
+	int Diterima = 0;
 
 	for (int i = 0; i < 2; i++) {
 		cout << "Masukkan nama kandidat = ";
@@ -47,7 +48,8 @@ int main() {
 	}
 
 	cout << "Total kandidat yang tidak diterima= " << tidakDiterima << endl;
-
+	
+	cout << "Total kandidat yang diterima= " << Diterima << endl;
 	return 0;
 
 }
