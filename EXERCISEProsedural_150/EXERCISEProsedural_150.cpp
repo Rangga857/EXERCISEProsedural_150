@@ -14,12 +14,12 @@ bool isAccepted(int matematika, int bahasainggris) {
 }
 
 int main() {
-	string nama[20];
-	string status[20];
+	string nama[2];
+	string status[2];
 
 	int tidakDiterima = 0;
 
-	for (int i = 0; 1 < 20; i++) {
+	for (int i = 0; i < 2; i++) {
 		cout << "Masukkan nama kandidat = ";
 		cin >> nama[i];
 
@@ -42,7 +42,7 @@ int main() {
 			
 	}
 
-	for (int i = 0; i < 20; i++) {
+	for (int i = 0; i < 2; i++) {
 		cout << "Nama = " << nama[i] << ", status = " << status[i] << endl;
 	}
 
